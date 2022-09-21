@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+.pray {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.pray img {
+  width: 450px;
+  border-radius: 0.2em;
+}
+.pray-detail {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 100px 50px;
+  margin-left: -70px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+  z-index: 9999;
+  transition: all 1.5s ease;
+}
+.header-navbar-section i {
+  font-weight: 900;
+}
+.header-section img {
+  width: 420px;
+}
+.header-navbar-section a {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.header-section {
+  padding: 100px 0;
+}
+.header-section h3 {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 4px;
+}
+.header-section h2 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Rubik", sans-serif;
+}
+
+.header-section button {
+  background: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+}
+.pray-detail h2 {
+  font-family: var(--Rubik);
+  font-size: 2em;
+  font-weight: 700;
+}
+.pray-detail p {
+  font-family: var(--Rubik);
+  font-size: 0.9em;
+  color: rgba(0, 0, 0, 0.5);
+}
+.cover h2 {
+  font-family: var(--Patua);
+  font-size: 28px;
+  color: whitesmoke;
+  font-weight: 700;
+}
+.cover p {
+  font-family: var(--Rubik);
+  font-size: 14px;
+  color: #e5e5e5;
+}
+.cover {
+  background-image: url("./images/pexels-photo-452738.jpeg");
+  background-size: 150%;
+  width: 100%;
+  height: 300px;
+  background-position: -24rem -19rem;
+  background-repeat: no-repeat;
+}
+.count-img {
+  height: 300px;
+  background: rgba(0, 0, 0, 0.496);
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.count-section {
+  background: white;
+  box-shadow: 1px 2px 50px 0px rgb(255 0 0 / 35%);
+  border-radius: 8px;
+  padding: 30px 10px;
+  margin-top: -66px;
+}
+.count-section h1 {
+  font-size: 5rem;
+  color: tomato;
+  font-weight: 700;
+  font-family: var(--Rubik);
+}
+.count-section h4 {
+  font-weight: 700;
+  font-family: var(--Patua);
+  font-size: 20px;
+}
+.purchase {
+  margin-top: 230px;
+  margin-bottom: 110px;
+}
+.purchase h1 {
+  font-family: var(--Lobster);
+}
+.purchase p {
+  font-size: 14px;
+}
+.purchase-detail {
+  border: 1px solid rgb(139, 138, 138);
+  text-align: center;
+  padding: 20px;
+  border-radius: 2px;
+}
+.purchase-detail p {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 17px;
+  color: var(--light-black);
+}
+.purchase-detail h1 {
+  font-size: 53px;
+  margin-bottom: 50px;
+}
+.purchase-detail button {
+  background: black;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 48px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.purchase-detail button:hover {
+  background: var(--bggradient);
+  color: white;
+}
+
+.about-us-header{
+    text-align: center;
+}
+.about-us-header h2{
+    font-family: var(--Patua);
+}
+.about-us-header p{
+    color: #6c757d!important;
+    font-size: 15px;
+}
+.single-about{
+    padding: 22px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+
+}
+.single-about img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.single-about h2{
+    margin-top: 20px;
+}
+.single-about h3{
+    color: #6c757d!important;
+}
+.single-about p{
+    color: #6c757d!important;
+}
+
+
+footer {
+    background: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+  }
+  
+  footer p > span {
+    color: #ff512f;
+  }
+  
+  footer input {
+    border: none !important;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+    height: 40px;
+  }
+  
+  footer .column i {
+    color: #dd2476;
+    margin-left: 6px;
+  }
+  
+
+
+
+@media only screen and (max-width: 789px) {
+  
+  .header-section img {
+    width: 250px;
+    margin-top: 40px;
+  }
+  .pray-detail {
+    margin-left: 0;
+  }
+  .count-section {
+    margin-top: 0;
+  }
+  .purchase {
+    margin-top: 500px;
+    padding-top: 500px;
+  }
+  .cover{
+    background-size: 210%;
+    background-position: -15rem -7rem;
+    
+  }
+  .count-img{
+    margin-bottom: 30px;
+  }
+}
